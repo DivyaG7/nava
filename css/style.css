@@ -124,12 +124,13 @@ h1, h3, h4 {
 }
 
 .section-2 { padding: 110px 0; position: relative; background: var(--bg-2);}
+
 .section-3 { padding: 110px 0; position: relative; background:
     radial-gradient(600px circle at 15% 20%, rgba(225,29,42,0.30), transparent 55%),
     linear-gradient(135deg, #fcebca, #FDEFD3);}
 
 .section { padding: 110px 0; position: relative; }
-.section--tight { padding: 72px 0; }
+.section--tight { padding: 72px 0; background-image: url('/assets/reelpng.png'); background-position: center; background-size: cover; }
 .section--alt { background: var(--bg-2); }
 
 .eyebrow {
@@ -743,7 +744,7 @@ h3.subtitle { font-size: clamp(1.4rem, 2.6vw, 1.9rem); }
   box-shadow: var(--shadow);
 }
 .founder__avatar {
-  width: 88px; height: 88px;
+  width: 150px; height: 150px;
   border-radius: 50%;
   background: var(--red-grad);
   display: grid; place-items: center;
@@ -775,6 +776,9 @@ h3.subtitle { font-size: clamp(1.4rem, 2.6vw, 1.9rem); }
 .founder__quote .sign { margin-top: 20px; color: var(--muted-2); font-style: normal; }
 
 /* ---------- Service detail blocks ---------- */
+#service{
+  background-image: url('/assets/reel-png.png'); background-position: center; background-size: cover;
+}
 .service-block {
   display: grid;
   grid-template-columns: 0.9fr 1.1fr;
@@ -923,7 +927,7 @@ h3.subtitle { font-size: clamp(1.4rem, 2.6vw, 1.9rem); }
   position: relative;
   padding: 160px 0 70px;
   overflow: hidden;
-  border-bottom: 1px solid var(--border);
+  border-bottom: 1px solid var(--border); 
 }
 .page-hero__glow {
   position: absolute; width: 620px; height: 620px;
