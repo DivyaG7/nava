@@ -60,7 +60,7 @@ section {
     left: 75%;
 }
 
-.light{
+.light {
     width: 200px;
     bottom: 10px;
     left: 75%;
@@ -74,7 +74,56 @@ section {
     transform: rotate(-18deg);
 }
 
-.element{
+.element {
+    width: clamp(80px, 15vw, 200px);
+    top: 130px;
+    left: 10%;
+    transform: rotate(-18deg);
+}
+
+.storyboard-service {
+    width: clamp(80px, 15vw, 200px);
+    top: 450px;
+    left: 10%;
+    transform: rotate(-18deg);
+}
+
+.camera-service {
+    width: clamp(80px, 13vw, 200px);
+    top: 60rem;
+    left: 60%;
+    transform: rotate(-18deg);
+}
+
+.speak-service {
+    width: clamp(80px, 15vw, 200px);
+    top: 95rem;
+    left: 10%;
+    transform: rotate(-18deg);
+}
+
+.brand-service {
+    width: clamp(80px, 13vw, 200px);
+    top: 130rem;
+    left: 60%;
+    transform: rotate(-18deg);
+}
+
+.marketing-service {
+    width: clamp(80px, 12vw, 200px);
+    top: 165rem;
+    left: 10%;
+    transform: rotate(-18deg);
+}
+
+.costume-service {
+    width: clamp(80px, 15vw, 200px);
+    top: 200rem;
+    left: 60%;
+    transform: rotate(-10deg);
+}
+
+.reel1 {
     width: clamp(80px, 15vw, 200px);
     top: 130px;
     left: 10%;
@@ -100,6 +149,50 @@ section {
         translate: 0 -10px;
     }
 
+}
+
+@media (max-width:980px) {
+    .storyboard-service {
+        width: clamp(80px, 15vw, 200px);
+        top: 120px;
+        left: 20%;
+        transform: rotate(-18deg);
+    }
+
+    .camera-service {
+        width: clamp(80px, 13vw, 200px);
+        top: 57rem;
+        left: 30%;
+        transform: rotate(-18deg);
+    }
+
+    .speak-service {
+        width: clamp(80px, 15vw, 200px);
+        top: 104rem;
+        left: 30%;
+        transform: rotate(-18deg);
+    }
+
+    .brand-service {
+        width: clamp(80px, 13vw, 200px);
+        top: 153rem;
+        left: 30%;
+        transform: rotate(-18deg);
+    }
+
+    .marketing-service {
+    width: clamp(80px, 12vw, 200px);
+    top: 202rem;
+    left: 60%;
+    transform: rotate(-18deg);
+}
+
+.costume-service {
+    width: clamp(80px, 15vw, 200px);
+    top: 250rem;
+    left: 60%;
+    transform: rotate(-10deg);
+}
 }
 
 @media (max-width:768px) {
@@ -129,36 +222,82 @@ section {
     }
 
     .chair {
-    width: 100px;
-    top: 130px;
-    left: 10%;
+        width: 100px;
+        top: 130px;
+        left: 10%;
+    }
+
+    .speak {
+        width: 100px;
+        bottom: 10px;
+        left: 75%;
+    }
+
+    .light {
+        width: 100px;
+        bottom: 10px;
+        left: 75%;
+    }
+
+    .storyboard1 {
+        width: 100px;
+        top: 130px;
+        left: 10%;
+    }
+
+    .element {
+        width: 100px;
+        top: 130px;
+        left: 10%;
+    }
+
+    .storyboard-service {
+        width: clamp(80px, 15vw, 200px);
+        top: 130px;
+        left: 50%;
+        transform: rotate(-18deg);
+    }
+
+    .camera-service {
+        width: clamp(80px, 13vw, 200px);
+        top: 18%;
+        left: 60%;
+        transform: rotate(-18deg);
+    }
+
+    .speak-service {
+        width: clamp(80px, 15vw, 200px);
+        top: 34%;
+        left: 55%;
+        transform: rotate(-18deg);
+    }
+
+    .brand-service {
+        width: clamp(80px, 13vw, 200px);
+        top: 50%;
+        left: 55%;
+        transform: rotate(-18deg);
+    }
+
+    .marketing-service {
+    width: clamp(80px, 12vw, 200px);
+    top: 66%;
+    left: 60%;
+    transform: rotate(-18deg);
 }
 
-.speak {
-    width: 100px;
-    bottom: 10px;
-    left: 75%;
+.costume-service {
+    width: clamp(80px, 15vw, 200px);
+    top: 83%;
+    left: 60%;
+    transform: rotate(-10deg);
 }
 
-.light{
-    width: 100px;
-    bottom: 10px;
-    left: 75%;
-}
-
-.storyboard1 {
-    width: 100px;
-    top: 130px;
-    left: 10%;
-}
-
-.element {
-    width: 100px;
-    top: 130px;
-    left: 10%;
-}
-
-
+.reel1 {
+        width: 100px;
+        top: 130px;
+        left: 10%;
+    }
 
 }
 
@@ -190,33 +329,81 @@ section {
     }
 
     .chair {
-    width: 100px;
-    top: 130px;
-    left: 8%;
+        width: 100px;
+        top: 130px;
+        left: 8%;
+    }
+
+    .speak {
+        width: 100px;
+        bottom: 10px;
+        left: 75%;
+    }
+
+    .light {
+        width: 100px;
+        bottom: 10px;
+        left: 70%;
+    }
+
+    .storyboard1 {
+        width: 100px;
+        top: 130px;
+        left: 6%;
+    }
+
+    .element {
+        width: 90px;
+        top: 150px;
+        left: 6%;
+    }
+
+    .storyboard-service {
+        width: clamp(80px, 15vw, 200px);
+        top: 125px;
+        left: 60%;
+        transform: rotate(-18deg);
+    }
+
+    .camera-service {
+        width: clamp(80px, 13vw, 200px);
+        top: 17%;
+        left: 65%;
+        transform: rotate(-18deg);
+    }
+
+    .speak-service {
+        width: clamp(80px, 15vw, 200px);
+        top: 33%;
+        left: 55%;
+        transform: rotate(-18deg);
+    }
+
+
+    .brand-service {
+        width: clamp(80px, 13vw, 200px);
+        top: 49%;
+        left: 55%;
+        transform: rotate(-18deg);
+    }
+
+    .marketing-service {
+    width: clamp(80px, 12vw, 200px);
+    top: 66%;
+    left: 60%;
+    transform: rotate(-18deg);
 }
 
-.speak {
-    width: 100px;
-    bottom: 10px;
-    left: 75%;
+.costume-service {
+    width: clamp(100px, 16vw, 200px);
+    top: 82%;
+    left: 60%;
+    transform: rotate(-10deg);
 }
 
-.light{
-    width: 100px;
-    bottom: 10px;
-    left: 70%;
-}
-
-.storyboard1 {
-    width: 100px;
-    top: 130px;
-    left: 6%;
-}
-
-.element {
-    width: 90px;
-    top: 150px;
-    left: 6%;
-}
-
+.reel1 {
+        width: 90px;
+        top: 150px;
+        left: 6%;
+    }
 }
